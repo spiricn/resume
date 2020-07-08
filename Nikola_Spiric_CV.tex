@@ -13,82 +13,89 @@
 
 	% Print the header
 	\makeheader
-	
+
 	% Print the content
 	\begin{cvsection}{Employment}
-		\begin{cvsubsection}{Software Engineer, Intern}{Apple Computer}{Summer 2004}
-			iChat AV			
+		\begin{cvsubsection}{Scholarship, R\&D Intern}{RT--RK LLC}{2012}
 			\begin{itemize}
-				\item Reduced time to render the user’s buddy list by 75\% by implementing prediction algorithm.
-				\item Implemented iChat integration with OS X Spotlight Search by creating tool which extracts metadata from saved chat transcripts and provides metadata to a system-wide search database.
-				\item Redesigned chat file format and implemented backwards compatibility for search.
+				\item Worked on porting a DVB-T/C middleware to Broadcom/ARM STB
+				\item Developed a Ffmpeg-based transcoding server used for DVB/TS conversion to MJPEG streams
+				\item Cross compiled Firefox OS (b2g) to a Linux HDMI stick \& ported JS/HTML based TV UI
 			\end{itemize}
 		\end{cvsubsection}
-		
-		\begin{cvsubsection}{Lead Student Ambassador}{Microsoft Corporation}{Fall 2003 -- Spring 2005}	
+
+		\begin{cvsubsection}{Software Engineer}{iWedia S.A}{2013}
+			Bouyguestelecom
 			\begin{itemize}
-				\item Promoted to Lead Student Ambassador in Fall 2004; supervised 10 -- 15 Student Ambassadors.
-				\item Created and taught Computer Science course, CSE 099: Software Design and Development.
+				\item Migrated DVB-T/HLS middleware stack to Android 5 (Lollipop)
+				\item Added support for Widevine DRM-protected MPEG-DASH(OTT) playback
+			\end{itemize}
+			WiBox
+			\begin{itemize}
+				\item Added support for NAGRA AnyCAST Connect CAS
+				\item Supervised small team (system integration, TR-069)
 			\end{itemize}
 		\end{cvsubsection}
-		
-		\begin{cvsubsection}{Head Teaching Assistant}{University of Pennsylvania}{Fall 2001 -- Spring 2005}		
+
+		\begin{cvsubsection}{Technical Lead}{iWedia S.A}{2015}
+			NTT Plala - Hikari TV
 			\begin{itemize}
-				\item Courses: Advanced Java III, Software Engineering, Mathematical Foundations of Computer Science I \& II.
-				\item Promoted to Head TA in Fall 2004; led weekly meetings and supervised four other TAs.
+				\item Acted as a technical lead for a medium sized team
+				\item Delivered an Android DVB/IPTV middleware w/ Marlin encryption (operator-as-an-app)
+				\item Worked with customer for 3 months on-site in Tokyo (Japan)
+			\end{itemize}
+			VEON Beeline \& Kaltura - TV Everywhere
+			\begin{itemize}
+				\item Acted as a technical lead for 3 multinational teams (3 sites, 2 countries)
+				\item Delivered a single-application AOSP STB with an in-house MPEG-DASH OTT player
+				\item Solution deployed \& maintained for 1+ million customers, 2 countries (Russia, Kazakhstan) and 3 OEMs
 			\end{itemize}
 		\end{cvsubsection}
-		
-		\begin{cvsubsection}{Software Design Engineer, Intern}{Microsoft Corporation}{Summers 2001 -- 2003}
-			Visual Studio Core (Summer 2003)		
+
+		\begin{cvsubsection}{R\&D Lead/Architect}{iWedia S.A}{2019}
+			Multimedia Player SDK
 			\begin{itemize}
-				\item Implemented a user interface for the VS open file switcher (ctrl-tab) and extended it to tool windows.
-				\item Created service to provide gradient across VS and VS add-ins. Optimized service via caching.
+				\item Designed and developed a C++14, cross-platform multimedia playback SDK (Android, Linux, iOS)
+				\item Preformed code review, architectural design, team member coaching
+				\item Established a product-based commercial project support system
 			\end{itemize}
-			Programmer Productivity Research Center (Summers 2001, 2002)
+			DevOps
 			\begin{itemize}
-				\item Built app to compute similarity of all methods in a code base; reduced time from $O(n^2)$ to $O(n\ log\ n)$. 
-				\item Created test case generation tool which creates random XML docs from XML Schema.
+				\item Established a CI infrastructure
+				\item Modernized legacy development environment and flows (VSCode/Docker/OverlayFS)
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
-	
+
 	\begin{cvsection}{Education}
-		\begin{cvsubsection}{Serbia, Novi Sad}{Faculty of Technical Sciences}{Fall 2009 -- May 2014}
+		\begin{cvsubsection}{Serbia, Novi Sad}{Faculty of Technical Sciences}{2009 -- 2014}
 			\begin{itemize}
-				\item M.S.E. in Electrical and Computer Engineering,May 2014. GPA: 8.49/10
-				\item B.S.E. in Electrical and Computer Engineering, May 2013.  GPA: 10/10
-				\item Graduate \& Undergraduate Coursework: Mathematical Analysis I \& II, Algebra, Programming Languages and Data Structures, Fundamentals of Electrical Engineering, Computer Architecture, System Modeling and Simulation, Logic Design of Computer Systems, Object Oriented Programming, Operating Systems, Automatic Control Systems, Real Time System Programming, Probability and Stochastic Processes, Optimization Method, Databases, Fundamentals of Computer Networks, Fundamentals of DSP Architecture and Algorithms, Web Programming, Dedicated Computer Structure Design
+				\item M.S.E. in Electrical and Computer Engineering, May 2014. GPA: 10/10
+				\item B.S.E. in Electrical and Computer Engineering, May 2013. GPA: 8.49/10
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
-	
+
 	\begin{cvsection}{Technical Experience}
 		\begin{cvsubsection}{Projects}{}{}
+			Projects below accessible via my Github profile - https://github.com/spiricn
 			\begin{itemize}
-				\item \textbf{Multi-User Drawing Tool} (2004). Electronic classroom where multiple users can view and simultaneously draw on a “chalkboard” with each person’s edits synchronized.  C++, MFC
-				\item \textbf{Synchronized Calendar} (2003 – 2004). Desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users.  C\#.NET, SQL, XML
-				\item \textbf{Operating System} (2002).  UNIX-style OS with scheduler, file system, text editor and calculator. C
+				\item \textbf{hls} - C++14 HTTP Live Streaming manifest parser library
+				\item \textbf{Breach} - Android application, uses Firebase ML Kit/camera input to help users solve a mini-game
+				\item \textbf{PyBrewer} - Python(BE)/Angular(FE) Raspberry Pi Beer brewing temperature controller/monitor
+				\item \textbf{libRb} - A lightweight, no-dependency C utility library used on embedded systems
+				\item \textbf{Wt} - C++98 game engine \& world editor. Supports PhysX integration, Lua scripting, terrain rendering, basic UI, skeletal animation, particle effects, deferred lighting
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
-	
-	\begin{cvsection}{Additional Experience and Awards}
-		\begin{cvsubsection}{}{}{}	
-			\begin{itemize}
-				\item \textbf{Instructor (2003 – 2005):} Taught two full-credit Computer Science courses; average ratings of 4.8 out of 5.0.
-				\item \textbf{Third Prize, Senior Design Projects:} Awarded 3rd prize for Synchronized Calendar project, out of 100 projects.
-			\end{itemize}
-		\end{cvsubsection}
-	\end{cvsection}
-	
+
 	\begin{cvsection}{Languages and Technologies}
-		\begin{cvsubsection}{}{}{}	
+		\begin{cvsubsection}{}{}{}
 			\begin{itemize}
-				\item C++; C; Java; Objective-C; C\#.NET; SQL; JavaScript; XSLT; XML (XSD) Schema 
-				\item Visual Studio; Microsoft SQL Server; Eclipse; XCode; Interface Builder
+				\item C++; C; Java; Python; Typescript/Javascript
+				\item CMake; Gradle; LLVM  (clang, format, tidy); GCC
+				\item Git/Gerrit; SVN; Jenkins; Docker
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
-	
 \end{document}
